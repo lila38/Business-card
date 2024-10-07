@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Raleway", sans-serif; 
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e,  #b88a44);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;     
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+}
+h3 {
+    color: white;
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+}
+a {
+    text-decoration: none;
+  }
+.logo {
+    width: 15%;
+}
+
+
+.card {
+    margin: 0 auto;
+    padding: 15%;
+    display: block;
+    text-align: center;   
+   /*  border-bottom: 10px solid #6B6D63; */
+     
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
